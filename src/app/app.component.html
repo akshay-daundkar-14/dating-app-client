@@ -1,1 +1,9 @@
+<app-nav></app-nav>
+
 <h1>{{title}}</h1>
+
+<div>
+    <ul>
+        <li *ngFor="let user of users"> {{user.username}}</li>
+    </ul>
+</div>
